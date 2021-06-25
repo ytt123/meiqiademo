@@ -1,0 +1,26 @@
+PODS:
+  - Meiqia (3.7.0):
+    - Meiqia/MeiqiaSDK (= 3.7.0)
+    - Meiqia/MQChatViewController (= 3.7.0)
+  - Meiqia/MeiqiaSDK (3.7.0)
+  - Meiqia/MQChatViewController (3.7.0):
+    - Meiqia/MeiqiaSDK
+
+DEPENDENCIES:
+  - Meiqia (from `https://github.com/ytt123/MeiqiaSDK-iOS.git`)
+
+EXTERNAL SOURCES:
+  Meiqia:
+    :git: https://github.com/ytt123/MeiqiaSDK-iOS.git
+
+CHECKOUT OPTIONS:
+  Meiqia:
+    :commit: 34e81df34514a02d7ca88f7567aa4abe4102c34c
+    :git: https://github.com/ytt123/MeiqiaSDK-iOS.git
+
+SPEC CHECKSUMS:
+  Meiqia: 848ecd0c9d9b5e49b2ccb32b080880f5f960caec
+
+PODFILE CHECKSUM: 547211ede9e8a04adefe47efde94038a2263adca
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C448F60C264F79F4005927BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C448F60B264F79F4005927BB /* AppDelegate.m */; };
+		C448F612264F79F4005927BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C448F611264F79F4005927BB /* ViewController.m */; };
+		C448F615264F79F4005927BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448F613264F79F4005927BB /* Main.storyboard */; };
+		C448F617264F79F6005927BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C448F616264F79F6005927BB /* Assets.xcassets */; };
+		C448F61A264F79F6005927BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C448F618264F79F6005927BB /* LaunchScreen.storyboard */; };
+		C448F61D264F79F6005927BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C448F61C264F79F6005927BB /* main.m */; };
+		FDDAEFCCDD5CCF8346002B96 /* Pods_meiqia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F06FD89511E245B0DA0FD71 /* Pods_meiqia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2100286719A55B4FC0589C1F /* Pods-meiqia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiqia.debug.xcconfig"; path = "Target Support Files/Pods-meiqia/Pods-meiqia.debug.xcconfig"; sourceTree = "<group>"; };
+		5F06FD89511E245B0DA0FD71 /* Pods_meiqia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meiqia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B771644C7C7BBBB6C5DE09 /* Pods-meiqia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiqia.release.xcconfig"; path = "Target Support Files/Pods-meiqia/Pods-meiqia.release.xcconfig"; sourceTree = "<group>"; };
+		C448F607264F79F4005927BB /* meiqia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meiqia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C448F60A264F79F4005927BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C448F60B264F79F4005927BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C448F610264F79F4005927BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C448F611264F79F4005927BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C448F614264F79F4005927BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C448F616264F79F6005927BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C448F619264F79F6005927BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C448F61B264F79F6005927BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C448F61C264F79F6005927BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C448F604264F79F4005927BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDAEFCCDD5CCF8346002B96 /* Pods_meiqia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0387F0822C5444FDA5E7287B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2100286719A55B4FC0589C1F /* Pods-meiqia.debug.xcconfig */,
+				64B771644C7C7BBBB6C5DE09 /* Pods-meiqia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C448F5FE264F79F4005927BB = {
+			isa = PBXGroup;
+			children = (
+				C448F609264F79F4005927BB /* meiqia */,
+				C448F608264F79F4005927BB /* Products */,
+				0387F0822C5444FDA5E7287B /* Pods */,
+				DF7D97980EFFE0846BBCD74D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C448F608264F79F4005927BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C448F607264F79F4005927BB /* meiqia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C448F609264F79F4005927BB /* meiqia */ = {
+			isa = PBXGroup;
+			children = (
+				C448F60A264F79F4005927BB /* AppDelegate.h */,
+				C448F60B264F79F4005927BB /* AppDelegate.m */,
+				C448F610264F79F4005927BB /* ViewController.h */,
+				C448F611264F79F4005927BB /* ViewController.m */,
+				C448F613264F79F4005927BB /* Main.storyboard */,
+				C448F616264F79F6005927BB /* Assets.xcassets */,
+				C448F618264F79F6005927BB /* LaunchScreen.storyboard */,
+				C448F61B264F79F6005927BB /* Info.plist */,
+				C448F61C264F79F6005927BB /* main.m */,
+			);
+			path = meiqia;
+			sourceTree = "<group>";
+		};
+		DF7D97980EFFE0846BBCD74D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F06FD89511E245B0DA0FD71 /* Pods_meiqia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C448F606264F79F4005927BB /* meiqia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C448F620264F79F6005927BB /* Build configuration list for PBXNativeTarget "meiqia" */;
+			buildPhases = (
+				D359ECB133A8F121074298A6 /* [CP] Check Pods Manifest.lock */,
+				C448F603264F79F4005927BB /* Sources */,
+				C448F604264F79F4005927BB /* Frameworks */,
+				C448F605264F79F4005927BB /* Resources */,
+				6A57F3E598436F9B4168F385 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meiqia;
+			productName = meiqia;
+			productReference = C448F607264F79F4005927BB /* meiqia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C448F5FF264F79F4005927BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C448F606264F79F4005927BB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C448F602264F79F4005927BB /* Build configuration list for PBXProject "meiqia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C448F5FE264F79F4005927BB;
+			productRefGroup = C448F608264F79F4005927BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C448F606264F79F4005927BB /* meiqia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C448F605264F79F4005927BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C448F61A264F79F6005927BB /* LaunchScreen.storyboard in Resources */,
+				C448F617264F79F6005927BB /* Assets.xcassets in Resources */,
+				C448F615264F79F4005927BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A57F3E598436F9B4168F385 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meiqia/Pods-meiqia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meiqia/Pods-meiqia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meiqia/Pods-meiqia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D359ECB133A8F121074298A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meiqia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C448F603264F79F4005927BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C448F612264F79F4005927BB /* ViewController.m in Sources */,
+				C448F60C264F79F4005927BB /* AppDelegate.m in Sources */,
+				C448F61D264F79F6005927BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C448F613264F79F4005927BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C448F614264F79F4005927BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C448F618264F79F6005927BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C448F619264F79F6005927BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C448F61E264F79F6005927BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C448F61F264F79F6005927BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C448F621264F79F6005927BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2100286719A55B4FC0589C1F /* Pods-meiqia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGH5QQBQ98;
+				INFOPLIST_FILE = meiqia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.GR.meiqia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C448F622264F79F6005927BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B771644C7C7BBBB6C5DE09 /* Pods-meiqia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGH5QQBQ98;
+				INFOPLIST_FILE = meiqia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.GR.meiqia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C448F602264F79F4005927BB /* Build configuration list for PBXProject "meiqia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C448F61E264F79F6005927BB /* Debug */,
+				C448F61F264F79F6005927BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C448F620264F79F6005927BB /* Build configuration list for PBXNativeTarget "meiqia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C448F621264F79F6005927BB /* Debug */,
+				C448F622264F79F6005927BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C448F5FF264F79F4005927BB /* Project object */;
+}
